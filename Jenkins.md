@@ -4,7 +4,8 @@ El despligue de un servicio de Jenkins se puede dar de forma local, para ello, s
 > Nota: Los siguientes pasos y comandos de instalación estan previstos para una distribución Centos.
 
 ### Instalar Docker en el sistema Operativo
-Una de las formas más sencillas es instalar Jenkins como contendor de Docker, para ello, se requiere instalar Docker.
+Una de las formas más sencillas es instalar Jenkins como contendor de Docker, para ello, se requiere instalar Docker. 
+> Nota: Se recomienda revisar para distintas [distribuciones.](https://docs.docker.com/engine/install/)
   
   1. Verificar conexión a internet, realizar un ping a google  
  `ping google.com`
