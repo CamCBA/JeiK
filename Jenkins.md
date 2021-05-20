@@ -88,7 +88,7 @@ Una de las formas más sencillas es instalar Jenkins como contendor de Docker, p
 5. Crear un nuevo directorio dentro de la carpeta jenkins-data 
  `mkdir pipeline`
 
-6. Crear un Dockerfile, dentro de la carpeta "pipeline",[contenido](https://github.ibm.com/IBM-talent/devops/tree/master/Jenkins/Docker%20en%20Jenkins)                           
+6. Crear un Dockerfile, dentro de la carpeta "pipeline", [contenido](https://github.ibm.com/IBM-talent/devops/tree/master/Jenkins/Docker%20en%20Jenkins)                         
  `vi Dockerfile`
 
 7. Actualizar el docker-compose.yml de la carpeta "jenkins-data", agregando un nuevo contexto y el mapeo del sock de docker, [contenido actualizado ](https://github.ibm.com/IBM-talent/devops/tree/master/Jenkins/Docker%20en%20Jenkins)                            
