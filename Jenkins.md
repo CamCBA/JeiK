@@ -88,15 +88,19 @@ Una de las formas más sencillas es instalar Jenkins como contendor de Docker, p
 5. Crear un nuevo directorio dentro de la carpeta jenkins-data 
  `mkdir pipeline`
 
-6. Crear un Dockerfile `vi Dockerfile`
+6. Crear un Dockerfile     
+ `vi Dockerfile`
 
 7. Actualizar el docker-compose.yml , agregando un nuevo contexto y el mapeo del sock de docker, el contenido se encuentra en _link_
 
-8. Ejecutar `docker-compose build`
+8. Ejecutar     
+`docker-compose build`
 
-9. Recrear el contenedor `docker-compose up -d`
+9. Recrear el contenedor      
+`docker-compose up -d`
 
-10. Ingresar al contenedor `docker exec -ti jenkins bash`
+10. Ingresar al contenedor  
+`docker exec -ti jenkins bash`
 
 11. Verificar si hay o no hay docker `docker ps` , se obtiene un "no se encuentra el comando"
 
