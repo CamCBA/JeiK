@@ -1,6 +1,6 @@
 # Creación de Jenkins local 
 
-El despligue de un servicio de Jenkins se puede dar de forma local, para ello, se debe tener el cuenta el sistema operativo en el cual se esté trabjando. Estando en un sistema linux se puede comenzar con los pasos siguientes, si por el contario, se tiene un sistema Windows hay diversas [alternativas.](https://github.ibm.com/IBM-talent/devops-wiki/blob/linux/1-Linux-en-Windows.md) con las cuales se puede obtener un _SO_ de Linux.
+El despligue de un servicio de Jenkins se puede dar de forma local, para ello, se debe tener el cuenta el sistema operativo en el cual se esté trabajando. Teniendo un sistema Linux puede comenzar con los pasos siguientes, si por el contario, se tiene un sistema Windows hay diversas [alternativas.](https://github.ibm.com/IBM-talent/devops-wiki/blob/linux/1-Linux-en-Windows.md) con las cuales se puede obtener un _SO_ de Linux.
 > Nota: Los siguientes pasos y comandos de instalación estan previstos para una distribución Centos.
 
 ### Instalar Docker en el sistema Operativo
