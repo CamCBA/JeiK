@@ -1,6 +1,6 @@
 # Creación de Jenkins local 
 
-El despligue de un servicio de Jenkins se puede dar de forma local, para ello, se debe tener el cuenta el sistema operativo en el cual se esté trabjando. Estando en un sistema linux se puede comenzar con los pasos siguientes, si por el contario, se tiene un sistema Windows hay diversas alternativas que las puedes encontrar en _link_ .
+El despligue de un servicio de Jenkins se puede dar de forma local, para ello, se debe tener el cuenta el sistema operativo en el cual se esté trabjando. Estando en un sistema linux se puede comenzar con los pasos siguientes, si por el contario, se tiene un sistema Windows hay diversas alternativas que las puedes encontrar en [alternativas](https://github.ibm.com/IBM-talent/devops-wiki/blob/linux/1-Linux-en-Windows.md)
 
 ### Instalar Docker en el sistema Operativo
 Una de las formas más sencillas es instalar Jenkins como contendor de Docker, para ello, se requiere instalar Docker.
@@ -51,7 +51,7 @@ Una de las formas más sencillas es instalar Jenkins como contendor de Docker, p
 3. Crear una carpeta para la información de jenkins      
  `mkdir jenkins-data`
 
-4. Crear un docker-compose dentro de jenkins-data,  [enlace al contenido](https://github.ibm.com/IBM-talent/devops/tree/master/Jenkins)             
+4. Crear un docker-compose dentro de jenkins-data, [enlace al contenido](https://github.ibm.com/IBM-talent/devops/tree/master/Jenkins)             
 `vi docker-compose.yml`
 
 5. Dentro de la carpeta jenkins-data, crear jenkins_home      
